@@ -22,7 +22,7 @@ output Q;
 
 	not MGM_BG_2( MGM_D0, D );
 
-	UDP_GF018hv5v_mcu_sc9_TT_1P8V_25C_verilog_nonpg_MGM_HN_IQ_FF_UDP( IQ1, MGM_C0, MGM_P0, CLK, MGM_D0, notifier );
+	gf180mcu_fd_sc_mcu9t5v0__udp_hn_iq_ff MGM_HN_IQ_FF_UDP( IQ1, MGM_C0, MGM_P0, CLK, MGM_D0, notifier );
 
 	not MGM_BG_3( Q, IQ1 );
 
